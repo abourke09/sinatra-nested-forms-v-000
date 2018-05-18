@@ -1,1 +1,15 @@
-<h1>Make your form here</h1>
+<h1>The Pirate Form</h1>
+<form action="/show" method="post">
+  Student Name: <input type="text" name="student[name]">
+  <br/>
+  Student Grade: <input type="text" name="student[grade]">
+  <br/>
+  Course Name: <input type="text" name="student[courses][][name]">
+  <br/>
+  Course Topic: <input type="text" name="student[courses][][topic]">
+  <br/>
+  Course Name: <input type="text" name="student[courses][][name]">
+  <br/>
+  Course Topic: <input type="text" name="student[courses][][topic]">
+  <input type="submit">
+</form>

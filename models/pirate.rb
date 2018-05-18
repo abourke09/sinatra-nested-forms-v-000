@@ -1,21 +1,21 @@
 class Pirate
   attr_reader :name, :weight, :height
 
- ships_array = []
+ pirates_array = []
 
   def initialize(params)
     @name = params[:name]
     @weight = params[:weight]
     @height = params[:height]
-    ships_array << self
+    pirates_array << self
   end
 
   def self.all
-    ships_array
+    pirates_array
   end
 
   def self.clear
-    ships_array.clear
+    pirates_array.clear
   end
 
 end

@@ -8,13 +8,13 @@ module FormsLab
     end
 
     post '/show' do
-      @student = Student.new(params[:student])
+      @pirate = Pirate.new(params[:pirate])
 
-      params[:student][:courses].each do |details|
-        Course.new(details)
+      params[:pirate][:ships].each do |details|
+        Ship.new(details)
       end
 
-      @courses = Course.all
+      @ships = Ship.all
 
       erb :show
     end

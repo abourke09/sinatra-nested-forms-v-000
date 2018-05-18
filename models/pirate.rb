@@ -14,8 +14,4 @@ class Pirate
     pirates_array
   end
 
-  def self.clear
-    pirates_array.clear
-  end
-
 end

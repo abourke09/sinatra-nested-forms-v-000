@@ -14,4 +14,8 @@ class Ship
     ships_array
   end
 
+  def self.clear
+    ships_array.clear
+  end
+
 end
